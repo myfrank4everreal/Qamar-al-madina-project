@@ -15,8 +15,8 @@
   }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     padding: 0px;
     margin: 0px;
 
@@ -35,14 +35,47 @@ opacity: 0.9px;
 #breadcrum {
     background-color: rgba(50, 70, 80, 0.7);
     width: auto;
-    height: 50px !important;
+    color: black;
+   
 }
 
 ul{
     overflow:hidden; 
-    
-    }
+}
+
 li{
 display:inline-block;
 margin-right: 12px;
+margin-left: auto;
+text-decoration: none;
+}
+
+
+.space_top {
+    margin-top: 15px;
+    
+}
+
+.space_bottom {
+    margin-bottom: 120px;
+}
+
+.topcontact {
+    
+    list-style:none;
+    color:black;
+    margin-top: 50px;
+}
+
+.topcontact a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 50;
+    margin:10px;
+}
+
+.topcontact i {
+    
+    font-size: 30px;
+    
 }

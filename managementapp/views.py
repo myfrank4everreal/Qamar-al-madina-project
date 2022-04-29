@@ -17,4 +17,4 @@ def services(requests):
     return render(requests, 'managementapp/services.html')
 
 def portfolio(requests):
-    return render(requests, 'managementapp/pricing.html')
+    return render(requests, 'managementapp/portfolio-item.html')
